@@ -20,7 +20,7 @@
                 <div class="card-body">
                     <h5 class="card-title"><%=mobiles[i]%></h5>
                     <p class="card-text">Price: <strong><%=prices[i]%></strong></p>
-                    <a href="details.jsp?product=<%=mobiles[i]%>" class="btn btn-primary">View Details</a>
+                    <a href="https://www.apple.com/in/iphone-16/" class="btn btn-primary">View Details</a>
                 </div>
             </div>
         </div>
