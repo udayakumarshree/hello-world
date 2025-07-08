@@ -12,6 +12,7 @@
         <%
             String[] mobiles = {"iPhone 15", "Samsung Galaxy S24", "OnePlus 12", "Pixel 9"};
             String[] prices = {"₹79,999", "₹69,999", "₹59,999", "₹64,999"};
+            String[] url    = {"https://www.apple.com/in/iphone-16/", "", "", ""};
             for (int i = 0; i < mobiles.length; i++) {
         %>
         <div class="col-md-3 mb-4">
@@ -20,7 +21,7 @@
                 <div class="card-body">
                     <h5 class="card-title"><%=mobiles[i]%></h5>
                     <p class="card-text">Price: <strong><%=prices[i]%></strong></p>
-                    <a href="https://www.apple.com/in/iphone-16/" class="btn btn-primary">View Details</a>
+                    <a href="card-url"><%=url[i]%> class="btn btn-primary">View Details</a>
                 </div>
             </div>
         </div>
