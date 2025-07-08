@@ -21,7 +21,7 @@
                 <div class="card-body">
                     <h5 class="card-title"><%=mobiles[i]%></h5>
                     <p class="card-text">Price: <strong><%=prices[i]%></strong></p>
-                    <a href="card-url"><%=url[i]%> class="btn btn-primary">View Details</a>
+                    <a href="card-url><%=url[i]%>" class="btn btn-primary">View Details</a>
                 </div>
             </div>
         </div>
